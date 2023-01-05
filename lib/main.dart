@@ -2,19 +2,14 @@ import 'package:flutter/material.dart';
 import 'Home.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Sketch To Realistic Image Generator",
-      debugShowCheckedModeBanner: false,
-      home: Home()
-    );
+        title: "PMC Project", debugShowCheckedModeBanner: false, home: Home());
   }
 }
