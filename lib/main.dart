@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: "PMC Project", debugShowCheckedModeBanner: false, home: Home());
+        title: "PMC Project asdasd",
+        debugShowCheckedModeBanner: false,
+        home: Home());
   }
 }
